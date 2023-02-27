@@ -11,10 +11,10 @@ on:
 
   pull_request:
     paths:
-    - infra/**
+    - main/**
 
 env:
-  tf_actions_working_dir: infra
+  tf_actions_working_dir: main
 
 permissions:
   id-token: write
